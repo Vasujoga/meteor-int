@@ -14,7 +14,7 @@ branches:
     - /QE*/
     - /RC*/
     - /Release-Master*/
-
+    - /main*/
 env:
 - SHORT_COMMIT= `git rev-parse --short=7 ${TRAVIS_COMMIT}`
 
